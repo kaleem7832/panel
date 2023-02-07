@@ -356,11 +356,11 @@ const AllContacts = () => {
                   type="text"
                   className="form-control"
                   id="size"
-                  placeholder="Size"
+                  placeholder="Company size"
                   value={size}
                   onChange={(e) => setSize(e.target.value)}
                 />
-                <label htmlFor="size">Size</label>
+                <label htmlFor="size">Company size</label>
               </div>
               <div className="form-floating mb-3">
                 <input
