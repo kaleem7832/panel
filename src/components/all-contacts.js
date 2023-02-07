@@ -164,7 +164,7 @@ const AllContacts = () => {
       const url = new URL(
         "/contacts",
         process.env.NODE_ENV === "production"
-          ? "https://www.material-react-table.com"
+          ? "https://contacts-my76.onrender.com"
           : "https://contacts-my76.onrender.com"
       );
       url.searchParams.set(
