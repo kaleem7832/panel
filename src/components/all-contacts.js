@@ -82,7 +82,7 @@ const AllContacts = () => {
 
     {
       accessorKey: "size",
-      header: "Size",
+      header: "Company size",
       size: 120,
     },
     {
